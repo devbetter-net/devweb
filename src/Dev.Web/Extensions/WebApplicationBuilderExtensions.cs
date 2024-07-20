@@ -6,7 +6,4 @@ public static class WebApplicationBuilderExtensions
     {
         builder.Services.AddControllersWithViews();
     }
-
-
-    
 }

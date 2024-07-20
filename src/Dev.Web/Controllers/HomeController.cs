@@ -1,10 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Dev.Plugin.Blog.Areas.Blog.Controllers;
-public class HomeController : BaseController
+namespace Dev.Web.Controllers;
+public class HomeController : Controller
 {
     public IActionResult Index()
     {
         return View();
     }
 }
+
