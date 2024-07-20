@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\common\Dev.Infrastructure\Dev.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas/" />
+    <Folder Include="Areas/Blog/" />
+  </ItemGroup>
+
+
+
+</Project>
