@@ -14,5 +14,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\plugins\Dev.Plugin.Blog\Dev.Plugin.Blog.csproj" />
+    <ProjectReference Include="..\plugins\Dev.Plugin.Auth\Dev.Plugin.Auth.csproj" />
   </ItemGroup>
 </Project>

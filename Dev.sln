@@ -20,6 +20,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "plugins", "plugins", "{6F0E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dev.Plugin.Blog", "src\plugins\Dev.Plugin.Blog\Dev.Plugin.Blog.csproj", "{7BDCFDCE-2EA8-405D-83A6-065509BADF82}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dev.Plugin.Auth", "src\plugins\Dev.Plugin.Auth\Dev.Plugin.Auth.csproj", "{E946932E-DD1F-4FDB-9F80-C18F7473009F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,6 +44,10 @@ Global
 		{7BDCFDCE-2EA8-405D-83A6-065509BADF82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BDCFDCE-2EA8-405D-83A6-065509BADF82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BDCFDCE-2EA8-405D-83A6-065509BADF82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E946932E-DD1F-4FDB-9F80-C18F7473009F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E946932E-DD1F-4FDB-9F80-C18F7473009F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E946932E-DD1F-4FDB-9F80-C18F7473009F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E946932E-DD1F-4FDB-9F80-C18F7473009F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,5 +59,6 @@ Global
 		{8F8C1A0B-A22D-46B4-BF2C-61BA140BE202} = {E45188A0-2261-4833-A104-F7BEBEF75D5F}
 		{6F0ECDB4-0BFD-4618-8713-61F526822439} = {640B8600-3BCE-4A94-BADA-6E59505F8844}
 		{7BDCFDCE-2EA8-405D-83A6-065509BADF82} = {6F0ECDB4-0BFD-4618-8713-61F526822439}
+		{E946932E-DD1F-4FDB-9F80-C18F7473009F} = {6F0ECDB4-0BFD-4618-8713-61F526822439}
 	EndGlobalSection
 EndGlobal
