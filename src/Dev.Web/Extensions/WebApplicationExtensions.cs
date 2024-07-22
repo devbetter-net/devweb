@@ -1,4 +1,6 @@
-﻿namespace Dev.Web.Extensions;
+﻿using Dev.Plugin.Auth;
+
+namespace Dev.Web.Extensions;
 
 public static class WebApplicationExtensions
 {
@@ -16,6 +18,8 @@ public static class WebApplicationExtensions
         app.UseStaticFiles();
 
         app.UseRouting();
+        app.UseDevAuthenticate();
+
 
         app.MapControllerRoute(
             name: "areas",

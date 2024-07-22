@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Dev.Plugin.Blog.Areas.Blog.Controllers;
-[Area("Blog")]
+namespace Dev.Plugin.Auth.Areas.Auth.Controllers;
+
+[Area("Auth")]
+
 public abstract class BaseController : Controller
 {
 
