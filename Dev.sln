@@ -22,6 +22,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dev.Plugin.Blog", "src\plug
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dev.Plugin.Auth", "src\plugins\Dev.Plugin.Auth\Dev.Plugin.Auth.csproj", "{E946932E-DD1F-4FDB-9F80-C18F7473009F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dev.Plugin.Media", "src\plugins\Dev.Plugin.Media\Dev.Plugin.Media.csproj", "{166476A7-5F5E-4C4B-9648-8CC8AAC17C2D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,6 +50,10 @@ Global
 		{E946932E-DD1F-4FDB-9F80-C18F7473009F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E946932E-DD1F-4FDB-9F80-C18F7473009F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E946932E-DD1F-4FDB-9F80-C18F7473009F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{166476A7-5F5E-4C4B-9648-8CC8AAC17C2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{166476A7-5F5E-4C4B-9648-8CC8AAC17C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{166476A7-5F5E-4C4B-9648-8CC8AAC17C2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{166476A7-5F5E-4C4B-9648-8CC8AAC17C2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,5 +66,6 @@ Global
 		{6F0ECDB4-0BFD-4618-8713-61F526822439} = {640B8600-3BCE-4A94-BADA-6E59505F8844}
 		{7BDCFDCE-2EA8-405D-83A6-065509BADF82} = {6F0ECDB4-0BFD-4618-8713-61F526822439}
 		{E946932E-DD1F-4FDB-9F80-C18F7473009F} = {6F0ECDB4-0BFD-4618-8713-61F526822439}
+		{166476A7-5F5E-4C4B-9648-8CC8AAC17C2D} = {6F0ECDB4-0BFD-4618-8713-61F526822439}
 	EndGlobalSection
 EndGlobal
