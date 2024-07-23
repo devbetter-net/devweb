@@ -5,6 +5,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
     
   </PropertyGroup>
+  <ItemGroup>
+    <Content Remove="Views/Shared/_ValidationScriptsPartial.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Views/Shared/_ValidationScriptsPartial.cshtml" />
+  </ItemGroup>
 
 
   <ItemGroup>

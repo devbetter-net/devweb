@@ -24,6 +24,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dev.Plugin.Auth", "src\plug
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dev.Plugin.Media", "src\plugins\Dev.Plugin.Media\Dev.Plugin.Media.csproj", "{166476A7-5F5E-4C4B-9648-8CC8AAC17C2D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebMVC", "WebMVC\WebMVC.csproj", "{D0807025-3365-48D5-86E7-AD6C0E199235}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,6 +56,10 @@ Global
 		{166476A7-5F5E-4C4B-9648-8CC8AAC17C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{166476A7-5F5E-4C4B-9648-8CC8AAC17C2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{166476A7-5F5E-4C4B-9648-8CC8AAC17C2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0807025-3365-48D5-86E7-AD6C0E199235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0807025-3365-48D5-86E7-AD6C0E199235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0807025-3365-48D5-86E7-AD6C0E199235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0807025-3365-48D5-86E7-AD6C0E199235}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
