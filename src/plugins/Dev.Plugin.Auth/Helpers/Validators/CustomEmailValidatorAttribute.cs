@@ -3,7 +3,7 @@ using System.Text.RegularExpressions;
 
 namespace Dev.Plugin.Auth.Helpers.Validators;
 
-public class CustomEmailValidator : ValidationAttribute
+public class CustomEmailValidatorAttribute : ValidationAttribute
 {
     private const string _emailPattern = @"^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$";
 
