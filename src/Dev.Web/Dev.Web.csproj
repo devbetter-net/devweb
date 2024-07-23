@@ -22,4 +22,9 @@
     <ProjectReference Include="..\plugins\Dev.Plugin.Blog\Dev.Plugin.Blog.csproj" />
     <ProjectReference Include="..\plugins\Dev.Plugin.Auth\Dev.Plugin.Auth.csproj" />
   </ItemGroup>
+
+
+  <ItemGroup>
+    <Folder Include="Views/Shared/Components/" />
+  </ItemGroup>
 </Project>
