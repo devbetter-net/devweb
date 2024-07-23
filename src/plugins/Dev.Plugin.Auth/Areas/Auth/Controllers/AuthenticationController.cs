@@ -26,7 +26,6 @@ public class AuthenticationController : BaseController
 
         return View(loginVM);
     }
-
     public async Task<IActionResult> LoginSubmitted(LoginVM loginVM)
     {
         if (!ModelState.IsValid)
